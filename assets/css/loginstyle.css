@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+*{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+.login-screen {
+    background-image: linear-gradient(141deg, #868686 0%, #252525 51%, #252525 75%);
+    background-image: url(https://myu.mans.edu.eg/static/core/bg.34f06b4daa95.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin: auto;
+    background-position: center;
+}
+.boxContainerCard{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 410px;
+background-color: transparent;
+margin-top: 145px;
+margin-right: auto;
+margin-left: auto;
+}
+.cardHardware{
+height: 410px;
+width: 340px;
+padding: 20px 35px;
+background: #191919;
+border-radius: 20px;
+position: relative;
+overflow: hidden;
+text-align: center;
+margin: auto;
+border: 2px solid #565656;
+transition: 0.2s ease;
+}
+
+.cardHardware i{
+font-size: 50px;
+display: block;
+text-align: center;
+margin: 25px 0px;
+color: #f9004d;
+}
+.NameHardware{
+color: rgb(192, 192, 192);
+font-size: 20px;
+margin-bottom: 15px;
+background-color: #191919;
+}
+.pra{
+background-color: #191919;
+}
+.pra p{
+color: rgba(220, 220, 220, 0.8);
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 20px;
+margin-top: 20px;
+background-color: #191919;
+}
+.d-flex{
+margin-left: 40px;
+}
+.d-flex2{
+margin-right:70px;
+}
+.btnLogin{
+margin-top: 30px;
+background-color: #191919;
+}
+.cardHardware .button{
+background-color:#565656;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 6px 40px;
+border-radius: 30px;
+transition: .4s; 
+}
+.cardHardware .btnexit{
+    background-color:#f9004d;
+}
+.cardHardware .button:hover{
+background-color: transparent;
+border: 2px solid #008439;
+cursor: pointer;
+}
+.cardHardware .btnexit:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.Userinput{
+border: 2px solid #f9004d;
+border-radius: 22px;
+padding: 8px 30px;
+margin-top: 15px;
+text-align: center;
+color: white;
+background-color: #191919;
+transition: transform .4s; 
+}
+.Userinput:hover
+{
+    transform: scale(1.1);
+}
+.imglogin{
+    background-color: #191919;
+    margin-top: -20px;
+}
