@@ -18,14 +18,16 @@
 					<img class="imglogin"src="assets/image/Untitled-2.png" width="200px" height="100px" alt="" srcset="">
 					<h5 class="NameHardware" > تسجيل الدخول إلي بوابة التحكم</h5>
 					<div class="pra">
-						<input class="Userinput" type="text" name="txtUserName" id="" placeholder="اسـم المستخدم">
-						<input class="Userinput" type="password" name="txtPassword" id="" placeholder="الرقم الســـري">
+						<form action="" method="post">
+						<input class="Userinput" type="text" name="username" id="" placeholder="اسـم المستخدم" required>
+						<input class="Userinput" type="password" name="password" id="" placeholder="الرقم الســـري" required>
 						<div class="btnLogin">
-							<a class="button col-5" href="Main.html"  >تسجيل الدخــول</a><br><br>
-							<a class="button col-5 btnexit" onclick="closeBtnClicked();" href="">خروج من النظام</a>
+							<a class="button col-5" href="Main.html"  name="BtnSubmit">تسجيل الدخــول</a><br><br>
+							<a class="button col-5 btnexit"  href="">خروج من النظام</a>
 
 							<!-- <a class="button col-5 btnexit" onclick="closeBtnClicked();" href="">خروج من النظام</a> -->
 						</div>
+					</form>
 					</div>
 				</div>
 		    </div>

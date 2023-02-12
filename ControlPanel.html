@@ -1,90 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio website</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
-    
+	<title>Smart Basket</title>
+	<meta charset="UTF-8">
 	<html dir="rtl" lang="ar">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/cpstyle.css">
+
+
+
+
+	
 </head>
-<body>
+<body class="bodymain">
 	<!----hero Section start---->
 
 	<div class="hero">
 		<nav>
-			<h2 class="logo">إدارة حي شرق<span> ..</span></h2>
+			<h2 class="logo"><img href="Main.html"class="imglogo"src="assets/image/Untitled-2.png" width="180px" height="90px" alt="" srcset=""><span></span></h2>
 			<ul>
-				<li><a href="">الرئيسيه</a></li>
-				<li><a href="/Users/Mahmoud/Desktop/Site V 1.0.0/Control_System.html">إداره النظام</a></li>
-				<li><a href="#">تواصل معنا</a></li>
+				<li class="active"><a href="Main.html">الرئيسيه</a></li>
+				<li class="active"><a href="/forbiden.html">لوحه التحكم</a></li>
+				<li class="active"><a href="#footerlabel">تواصل معنا</a></li>
 			</ul>
-			<a href="#" class="btnlogout">تسجيل الخروج</a>
+			<a href="login.html" class="btnlogout">تسجيل الخروج</a>
 		</nav>
 
 	<!-----service section start----------->
 	<div class="service">
-		<div class="title">
-			<h2>الاجهزة</h2>
-		</div>
-
-		<div class="boxContainerCard">
-			<div class="cardHardware">
-				<i class="far fa-bell"></i>
-				<h5 class="NameHardware" >الجهاز رقم<span> 1</span></h5>
-				  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-				  </div>
-				<div class="pra">
-					<p>يولد جميع الناس أحرارًا متساوين في الكرامة والحقوق. وقد وهبوا عقلاً وضميرًا وعليهم أن يعامل بعضهم بعضًا بروح الإخاء.</p>
 
 
-					<p style="text-align: center;">
-						<a class="button" href="192.168.1.1">ايقاف التنبيه</a>
-						<a class="button" href="#">الموقع</a>
-					</p>
+		<div class="container">
+		
+			<div class="boxContainerCard  row justify-content-around align-item-center">
+
+				<div class="cardtilte p-4 mb-3 col-md-4 col-sm-6">
+					<div class="pra">
+						<div class="label">
+							<h5 class="NameHardware" > <span>لوحه التحكم</span></h5>
+						</div>
+					</div>
 				</div>
-			</div>
 
-
-
-			<div class="cardHardware">
-				<i class="far fa-bell"></i>
-				<h5 class="NameHardware" >الجهاز رقم<span> 2</span></h5>
-				<div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-				  </div>
-
-				<div class="pra">
-					<p>يولد جميع الناس أحرارًا متساوين في الكرامة والحقوق. وقد وهبوا عقلاً وضميرًا وعليهم أن يعامل بعضهم بعضًا بروح الإخاء.</p>
-					<p style="text-align: center;">
-						<a class="button" href="#">ايقاف التنبيه</a>
-						<a class="button" href="#">الموقع</a>
-					</p>
+				<div class="cardHardware p-4 mb-3 col-md-4 col-sm-6">
+					<div class="pra">
+						<div class="btncp row justify-content-around">
+							<a class="button col-5" href="#cardcontroluser"  name="BtnSubmit">اداره المستخدمين</a>
+							<a class="button col-5"  href="#cardcontrolhardware">اداره الاجهــــزة</a>
+						</div>
+					</div>
 				</div>
+
+				<div id="cardcontroluser" class="cardcontroluser p-4 mb-3 col-md-4 col-sm-6">
+					<div class="pra">
+						<div class="justify-content-around">
+							<h5 class="NameHardware" > <span>اداره المستخدمين</span></h5>
+
+							<form action="controluser.php" method="post">
+								<input class="Userinput" type="text" id="id" name="id"
+									placeholder="الرقم التعريفي "><br>
+								<input class="Userinput" type="text" id="username" name="username"
+									placeholder="اسـم المستخدم"><br>
+								<input class="Userinput" type="text" id="userpassword" name="userpassword"
+									placeholder="الرقم السري"><br>
+								<input class="Userinput" type="text" id="name" name="name"
+									placeholder="الاسم"><br><br>
+								<input class="buttoncontroluser col-5 " type="submit" value="تعديل" name="Edit">
+								<input class="buttoncontroluser col-5" type="submit" value="اضافه" name="Save">
+								<input class="buttoncontroluser col-5" type="submit" value="حذف" name="Delete">
+								<input class="buttoncontroluser col-5" type="submit" value="عرض المستخدمين" name="Display">
+							</form>
+							
+							
+						</div>
+					</div>
+					
+					
+				</div>
+
+
+				<div id="cardcontrolhardware" class="cardcontroluser p-4 mb-3 col-md-4 col-sm-6">
+					<div class="pra">
+						<div class="justify-content-around">
+							<h5 class="NameHardware" > <span>اداره الاجهزة</span></h5>
+
+							<form action="controluser.php" method="post">
+								<input class="Userinput" type="text" id="id" name="id"
+									placeholder="الرقم التعريفي "><br>
+								<input class="Userinput" type="text" id="username" name="username"
+									placeholder="اسـم الجهاز"><br>
+								<input class="Userinput" type="text" id="userpassword" name="userpassword"
+									placeholder="Token or Api"><br>
+								<input class="Userinput" type="text" id="name" name="name"
+									placeholder="dsta"><br><br>
+								<input class="buttoncontroluser col-5" type="submit" value="Edit" name="Edit">
+								<input class="buttoncontroluser col-5" type="submit" value="Save" name="Save">
+								<input class="buttoncontroluser col-5" type="submit" value="Delete" name="Delete">
+								<input class="buttoncontroluser col-5" type="submit" value="Display" name="Display">
+							</form>
+						</div>
+					</div>
+				</div><br><br><br>
+
+
+
+
+
 			</div>
-
-
-
-			<div class="cardHardware">
-				<p style="text-align: center;">
-					<a class="button" href="#">إضافة جهاز </a>
-				</p>
-			</div>
-
 		</div>
 	</div>
 
 
 	<!------footer--------->
 	<footer>
-		<p>محمود خالد</p>
-		<p>فرونت اند ديفيلوبر ، لقد قمت بإنشاء هذا الموقع بالتعاون المشترك</p>
-		
-		<p class="end">CopyRight By Mahmoud khaled</p>
+        <div class="waves">
+			<div class="wave" id="wave1"></div>
+			<div class="wave" id="wave2"></div>
+			<div class="wave" id="wave3"></div>
+			<div class="wave" id="wave4"></div>
+		</div>
+		<a id="footerlabel"class="footerlabel "href="">عند مواجهتك اي مشكله يمكنك الاتصال بالدعم ما عليك الا الضغط هنا</a>
+		<ul class="social_icon">
+			<li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+	   </ul>
+        	<p >CopyRight By Mahmoud khaled</p>
 	</footer>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
